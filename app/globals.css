@@ -24,3 +24,17 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer utilities {
+  .hover-underline-animation {
+    @apply relative;
+  }
+
+  .hover-underline-animation::after {
+    @apply content-[''] absolute left-0 -bottom-1 h-[2px] w-0 bg-green-600 rounded-full transition-all duration-300 ease-in-out;
+  }
+
+  .hover-underline-animation:hover::after {
+    @apply w-full;
+  }
+}
