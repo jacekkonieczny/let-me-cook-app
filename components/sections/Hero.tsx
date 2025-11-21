@@ -24,7 +24,7 @@ const Hero = () => {
                         <span className="py-2 px-4 bg-neutral-900 rounded-3xl border border-neutral-700">Butter 🧈</span>
                     </div>
                     <p className="text-lg">
-                        ...and we'll find this for you:
+                        ...and we&apos;ll find this for you:
                     </p>
                     <div className="p-5 bg-neutral-900 rounded-xl border border-neutral-700">
                         <h3 className="text-2xl font-bold">
